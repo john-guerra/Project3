@@ -5,29 +5,6 @@ import { useNavigate } from "react-router-dom";
 import logo from "../images/logo.png";
 import MyVerticallyCenteredModal from "./VerticallyCenteredModal.js";
 
-// function MyVerticallyCenteredModal(props) {
-//   return (
-//     <Modal
-//       {...props}
-//       size="lg"
-//       aria-labelledby="contained-modal-title-vcenter"
-//       centered
-//     >
-//       <Modal.Header closeButton>
-//         <Modal.Title id="contained-modal-title-vcenter">
-//           Submit a New Post
-//         </Modal.Title>
-//       </Modal.Header>
-//       <Modal.Body>
-//         <SubmitForm />
-//       </Modal.Body>
-//       <Modal.Footer>
-//         <Button onClick={props.onHide}>Close</Button>
-//       </Modal.Footer>
-//     </Modal>
-//   );
-// }
-
 function PostForm2() {
   const [modalShow, setModalShow] = React.useState(false);
   const navigate = useNavigate();
